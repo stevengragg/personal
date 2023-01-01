@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import { SocialIcon } from "react-social-icons";
 
 type Props = {};
@@ -6,7 +7,22 @@ type Props = {};
 export default function Header({}: Props) {
   return (
     <header className=" sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
-      <div className="flex flex-row items-center">
+      <motion.div
+        className="flex flex-row items-center"
+        initial={{
+          x: -500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 0.8,
+        }}
+      >
         {/* Social Icons */}
         <SocialIcon
           url="https://github.com/stevengragg"
@@ -29,8 +45,23 @@ export default function Header({}: Props) {
           target="_blank"
           className="cursor-pointer"
         />
-      </div>
-      <div className="flex flex-row items-center">
+      </motion.div>
+      <motion.div
+        className="flex flex-row items-center"
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 0.8,
+        }}
+      >
         <SocialIcon
           url="mailto:steven@ionainnovlabs.com"
           fgColor="gray"
@@ -42,7 +73,7 @@ export default function Header({}: Props) {
           {" "}
           Get in touch
         </span>
-      </div>
+      </motion.div>
     </header>
   );
 }

@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Steven | Top-rated Full-stack Developer</title>
+        <title>Steven | Top-rated Full-stack Web Developer</title>
         <meta
           name="description"
           content="Hi, my name is Steven. I am a Developer. Let's build cool stuff."

@@ -11,10 +11,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Steven | Top-rated Full-stack Web Developer</title>
-        <meta
+        {/* <meta
           name="description"
           content="Hi, my name is Steven. I am a Full-stack Web Developer and I can definitely help you bring your ideas into a business platform. Let's build cool stuff."
-        />
+        /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/SGLogoUpdated.png" />
       </Head>

@@ -13,7 +13,7 @@ export default function Home() {
         <title>Steven | Top-rated Full-stack Web Developer</title>
         <meta
           name="description"
-          content="Hi, my name is Steven. I am a Full-stack Web Developer and I can definitely help you bring your ideas into a business platform. Let's build cool stuff."
+          content="Hi, my name is Steven Gragg. I am a Full-stack Web Developer and I can definitely help you bring your ideas into reality. Let's build cool stuff."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/SGLogoUpdated.png" />

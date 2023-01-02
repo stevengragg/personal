@@ -20,17 +20,12 @@ export default function Home() {
       </Head>
       {/* Header */}
       <Header />
-
+      New
       {/* Hero section */}
-
       {/* About */}
-
       {/* Experience */}
-
       {/* Skills */}
-
       {/* Projects */}
-
       {/* Contact Me */}
     </div>
   );

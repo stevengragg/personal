@@ -8,8 +8,8 @@ export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
       "Hey! This is Steven Gragg.",
-      "Serious-Guy-who-loves-Coffee.tsx",
-      "<ButLovesToCodeAndCreateCoolStuff />",
+      "Serious-Guy-who-loves-Universe.tsx",
+      "<ButLovesToCodeMore />",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -18,11 +18,22 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       {/* Background Circles */}
       <BackgroundCircles />
-
-      <h1 className="font-extrabold text-2xl">
-        <span>{text}</span>
-        <Cursor cursorColor="#227C70" />
-      </h1>
+      <Image
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        src="/steven_profile.jpg"
+        alt="Picture of the author"
+        width={500}
+        height={500}
+      />
+      <div>
+        <h2 className="text-sm uppercase text-theme1 pb-2 tracking-widest">
+          Full-stack Web Developer
+        </h2>
+        <h1 className="font-semibold text-5xl lg:text-6xl px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#227C70" />
+        </h1>
+      </div>
     </div>
   );
 }

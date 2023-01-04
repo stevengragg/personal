@@ -26,21 +26,21 @@ export default function Header({}: Props) {
         {/* Social Icons */}
         <SocialIcon
           url="https://github.com/stevengragg"
-          fgColor="gray"
+          fgColor="#E6E2C3"
           bgColor="transparent"
           target="_blank"
           className="cursor-pointer"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/devsteve05"
-          fgColor="gray"
+          fgColor="#E6E2C3"
           bgColor="transparent"
           target="_blank"
           className="cursor-pointer"
         />
         <SocialIcon
           url="https://twitter.com/stevenitsme_5"
-          fgColor="gray"
+          fgColor="#E6E2C3"
           bgColor="transparent"
           target="_blank"
           className="cursor-pointer"
@@ -64,12 +64,12 @@ export default function Header({}: Props) {
       >
         <SocialIcon
           url="mailto:steven@ionainnovlabs.com"
-          fgColor="gray"
+          fgColor="#E6E2C3"
           bgColor="transparent"
           target="_blank"
           className="cursor-pointer"
         />
-        <span className="text-gray-400 font-bold text-sm uppercase hidden md:inline-flex">
+        <span className="text-theme4 font-bold text-sm uppercase hidden md:inline-flex">
           {" "}
           Get in touch
         </span>

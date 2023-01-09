@@ -18,8 +18,8 @@ export default function About({}: Props) {
       />
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-4xl font-semibold text-theme1">
-          A <span className="underline decoration-theme1/50">Background</span>
-          story.
+          A <span className="underline decoration-theme1/50">little</span> bit
+          about myself.
         </h4>
         <p className="text-theme4">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean

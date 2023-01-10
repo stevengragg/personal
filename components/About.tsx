@@ -26,7 +26,7 @@ export default function About({}: Props) {
           A <span className="underline decoration-theme1/50">little</span> bit
           about myself.
         </h4>
-        <p className="text-theme4 text-sm">
+        <p className="text-theme4 text-base">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           sagittis eros quis luctus lobortis. Proin hendrerit porttitor nulla,
           sit amet sagittis ipsum. Class aptent taciti sociosqu ad litora

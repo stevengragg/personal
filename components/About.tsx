@@ -27,10 +27,10 @@ export default function About({}: Props) {
           about myself.
         </h4>
         <p className="text-theme4 text-base">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+          {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
           sagittis eros quis luctus lobortis. Proin hendrerit porttitor nulla,
           sit amet sagittis ipsum. Class aptent taciti sociosqu ad litora
-          torquent per conubia nostra, per inceptos himenaeos.
+          torquent per conubia nostra, per inceptos himenaeos. */}
         </p>
       </div>
     </motion.div>

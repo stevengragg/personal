@@ -27,10 +27,14 @@ export default function About({}: Props) {
           about myself.
         </h4>
         <p className="text-theme4 text-base">
-          {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          sagittis eros quis luctus lobortis. Proin hendrerit porttitor nulla,
-          sit amet sagittis ipsum. Class aptent taciti sociosqu ad litora
-          torquent per conubia nostra, per inceptos himenaeos. */}
+          Hey there! I'm Steven but you can call me Steve. I am a Full-stack Web
+          Developer for specific technologies in web development and mobile app
+          development. I started my journey as a freelancer or an individual
+          contractor under Upwork Freelancing platform. I love to create
+          personalize solution for different problems business may encounter on
+          their operations. I am basketball fan and I play sometimes. I also
+          play online FPS games. I also mentor students that wants to be a
+          developer in the future. Let's dive-in to my portofolio, shall we?
         </p>
       </div>
     </motion.div>

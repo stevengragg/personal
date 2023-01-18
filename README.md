@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## My Personal Website
 
-Hey there! I'm Steven but you can call me Steve. I am a Full-stack Web
+I'm Steven but you can call me Steve. I am a Full-stack Web
 Developer for specific technologies in web development and mobile app
 development. I started my journey as a freelancer or an individual
 contractor under Upwork Freelancing platform. I love to create

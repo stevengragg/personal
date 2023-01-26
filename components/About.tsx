@@ -21,13 +21,13 @@ export default function About({}: Props) {
         src="/SGLogo.svg"
         className="-mb-20 md:mb-0 flex-shrink-0w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-64 xl:w-[500px] xl:h-[500px]"
       />
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-10 px-2 md:px-10">
         <h4 className="text-xl font-semibold text-theme4">
           A <span className="underline decoration-theme1/50">little</span> bit
           about myself.
         </h4>
-        <h3>"I am a fan of 'Interstellar', a 2014 movie"</h3>
-        <p className="text-theme4 text-base">
+        <h3 className="">"I am a fan of 'Interstellar', a 2014 movie"</h3>
+        <p className="text-theme4 text-base text-justify">
           I really love everything about our universe. Curiosity drives me to
           love it more. I became a Full-stack Web Developer because of curiosity
           too. I do have experience with specific technologies in web

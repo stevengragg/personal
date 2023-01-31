@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
 
       {/* Hero section */}
-
+      {/* TODO: Changes for REMIX style should apply next time */}
       <section id="hero" className="snap-start">
         <Hero />
       </section>

@@ -12,7 +12,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## My Personal Website
+## Personal Portfolio Website
 
 I'm Steven but you can call me Steve. I am a Full-stack Web
 Developer for specific technologies in web development and mobile app
